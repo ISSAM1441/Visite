@@ -1,6 +1,7 @@
 {
   "global": {
     "title": "VisiteTechnique",
+    "CalTitle": "الجدولة الشهرية حسب المراكز",
     "browsehappy": "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/?locale=en\">upgrade your browser</a> to improve your experience.",
     "menu": {
       "home": "Home",
@@ -62,6 +63,36 @@
       },
       "button": {
         "rendezvous": "Make an appointment"
+      },
+      "region": {
+        "SidiHassineSijoumi": "سيدي حسين السيجومي",
+        "Ariana": "أريانة",
+        "BenArous": "بن عروس",
+        "Sfax": "صفاقص",
+        "Sousse": "سوسة",
+        "SakietEzzit": "ساقية الزيت",
+        "Nabeul": "نابل",
+        "Monastir": "المنستير",
+        "Bizerte": "بنزرت",
+        "BirElKassaa": "بئر القصعة بن عروس",
+        "Kairouan": "القيروان",
+        "Gabès": "قابس",
+        "Djerba": "جربة",
+        "Mahdia": "المهدية",
+        "Medenine": "مدنين",
+        "Zaghouan": "زغوان",
+        "Jendouba": "جندوبة",
+        "SidiBouzid": "سيدي بوزيد",
+        "Kasserine": "القصرين",
+        "SousseMenzelHayet": "منزل حياة سوسة",
+        "Gafsa": "قفصة",
+        "Béja": "باجة",
+        "Tataouine": "تطاوين",
+        "MenzelTmime": "منزل تميم",
+        "LeKef": "الكاف",
+        "Siliana": "سليانة",
+        "Kébili": "قبلي",
+        "Tozeur": "توزر"
       },
       "validate": {
         "newpassword": {

@@ -6,9 +6,8 @@
 Navbar
 ========================================================================== */
 
-.navbar-version {
-  font-size: 0.65em;
-  color: $navbar-dark-color;
+.navbar-title {
+  font-size: 0.75em;
 }
 
 .profile-image {
@@ -45,10 +44,13 @@ Navbar
 Logo styles
 ========================================================================== */
 .logo-img {
-  height: 61px;
-  width: 256px;
+  height: 53px;
+  width: 49px;
   display: inline-block;
   vertical-align: middle;
   background: url('../../../content/images/attt.gif') no-repeat center center;
-  background-size: contain;
+  background-position: center;
+  background-size: cover;
+  align-items: flex-start;
+  margin: auto;
 }

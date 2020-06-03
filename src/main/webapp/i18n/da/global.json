@@ -1,6 +1,7 @@
 {
   "global": {
-    "title": "VisiteTechnique",
+    "title": "الوكــــــــــــالة الـــفنية للنقـــل البــــري<br>Agence Technique des Transports Terrestres",
+    "CalTitle": "الجدولة الشهرية حسب المراكز",
     "browsehappy": "Du bruger en <strong>forældet</strong> browser. <a href=\"http://browsehappy.com/?locale=da\">Opgrader din browser</a> og få gavn af hele den tilgængelige funktionalitet.",
     "menu": {
       "home": "Forsiden",
@@ -62,6 +63,36 @@
       },
       "button": {
         "rendezvous": "Einen Termin machen"
+      },
+      "region": {
+        "SidiHassineSijoumi": "سيدي حسين السيجومي",
+        "Ariana": "أريانة",
+        "BenArous": "بن عروس",
+        "Sfax": "صفاقص",
+        "Sousse": "سوسة",
+        "SakietEzzit": "ساقية الزيت",
+        "Nabeul": "نابل",
+        "Monastir": "المنستير",
+        "Bizerte": "بنزرت",
+        "BirElKassaa": "بئر القصعة بن عروس",
+        "Kairouan": "القيروان",
+        "Gabès": "قابس",
+        "Djerba": "جربة",
+        "Mahdia": "المهدية",
+        "Medenine": "مدنين",
+        "Zaghouan": "زغوان",
+        "Jendouba": "جندوبة",
+        "SidiBouzid": "سيدي بوزيد",
+        "Kasserine": "القصرين",
+        "SousseMenzelHayet": "منزل حياة سوسة",
+        "Gafsa": "قفصة",
+        "Béja": "باجة",
+        "Tataouine": "تطاوين",
+        "MenzelTmime": "منزل تميم",
+        "LeKef": "الكاف",
+        "Siliana": "سليانة",
+        "Kébili": "قبلي",
+        "Tozeur": "توزر"
       },
       "validate": {
         "newpassword": {
