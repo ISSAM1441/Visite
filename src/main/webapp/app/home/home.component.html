@@ -77,7 +77,32 @@
                         <hr>
                         <agm-map style="height: 800px;" [latitude]="lat" [longitude]="lng"
                             (mapClick)="onChoseLocation($event)">
-                        </agm-map>
+                            <agm-marker [latitude]="lat1" [longitude]="lng1">
+                                <agm-info-window>
+                                    <h4>مراكز الفحص</h4>
+                                    <p>lat: {{ lat }}</p>
+                                    <p>long: {{ lng }}</p>
+                                  </agm-info-window>
+                            </agm-marker>
+                            <agm-marker [latitude]="lat2" [longitude]="lng2">
+                                <agm-info-window>
+                                    <h4>مراكز الفحص</h4>
+                                    <p>lat: {{ lat }}</p>
+                                    <p>long: {{ lng }}</p>
+                                  </agm-info-window>
+                            </agm-marker>
+                            <!-- <agm-marker *ngFor="let attt of attts; let i = index"
+      [latitude]="attt.lat" [longitude]="attt.long" 
+[iconUrl]="getIcon(school)">
+</agm-marker>
+-->
+      <agm-info-window>
+        <h4>مراكز الفحص</h4>
+        <p>lat: {{ lat }}</p>
+        <p>long: {{ lng }}</p>
+      </agm-info-window>
+    </agm-map>
+
                     </div>
                 </div>
                 <div class="row" *ngIf="!(lat || lng)">
@@ -533,7 +558,7 @@
                     <h3>Centres de visite technique<br><small>Agence Technique des Transports Terrestres</small></h3>
 
                 </div>
-                <hr>
+                <hr class="drop">
                 <div class="row atttlist">
                     <hr>
                     <h3 jhiTranslate="global.messages.centresatt.Sijoumi(Véhiculeslégers)"> centre ATTT</h3><br>

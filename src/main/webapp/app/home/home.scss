@@ -25,6 +25,28 @@ Main page styles
 body {
   padding-top: 70px;
 }
+
+.drop {
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  background: none;
+  border: none;
+  font-size: 22px;
+  background-color: null;
+  outline: dotted;
+  position: relative;
+  outline-width: 0.8px;
+  scroll-behavior: initial;
+  outline-color: #a1a1a1;
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+}
+.drop:hover {
+  box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  -webkit-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
 /**** FULL CALENDAR ****/
 
 /* Header
